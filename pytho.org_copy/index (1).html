@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+  box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+
+div.searchbox{
+  background-color: #0d1a26;
+  border-radius: 12px;
+width: 300px;
+}
+
+.column {
+  float: left;
+  align-content: center;
+  width: 13.85%;
+  padding-top: 10px;
+  text-decoration-color:none white;
+}
+.column1 {
+  float: left;
+  align-content: center;
+  width: 50%;
+  padding: 10px;
+  text-decoration-color:none white;
+}
+.column2 {
+  float: left;
+  align-content: left;
+  width: 14%;
+  padding:10px;
+  text-decoration-color:none white;
+}
+.column3{
+column-gap: 10px;
+-webkit-column-gap: 40px;
+border-spacing: 15px;
+padding-top: 10px; 
+border-top: 4px solid #336ea0;
+  float: left;
+  align-content: center;
+  width: 22%;
+  padding:15px;
+ margin-right: 24px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a.ar{
+  display : block;
+  color:white;
+  text-decoration: none;
+  padding-left: 30px;
+
+  opacity: 0.7;
+  padding-top: 10px;
+  font-size: 18px;
+  
+}
+a.ar1{
+  display : block;
+  color:white;
+  text-decoration: none;
+  padding-left: 30px;
+  opacity: 0.7;
+  padding-top: 5px;
+  font-size: 18px;
+  
+}
+.button1{
+background-color: #ffdc68;
+border-radius: 5px;
+margin-top: 25px;
+float:left;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  text-align: center;
+  opacity: 0.9;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  height: 30px;
+}
+.button3{
+background-color: #ffdc68;
+border-radius: 5px;
+  border: none;
+  padding: 0px 10px;
+  opacity: 0.9;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  height: 40px;
+  position:relative;
+  
+  float:right;
+}
+.button2{
+background-color: #336ea0;
+border-radius: 12px;
+margin-top: 17px;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+  .column3 {
+    width: 100%;
+  }
+
+  .topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+}
+div.menu{
+
+  margin:auto;
+}
+div.secondmenu{
+  background-color: #336ea0;
+  max-width: 1200px;
+  border-radius: 5px;
+  height: 50px;
+  margin:auto;
+}
+div.fourthmenu{
+  background-color: #336ea0;
+  max-width: 1140px;
+  border-radius: 5px;
+  margin:auto;
+  padding-left: 24px;
+  padding-right: 24px; 
+}
+div.third{
+  max-width: 900px;
+  margin:auto;
+}
+
+.pagination {
+  display: inline-block;
+  margin: auto;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color : #336ea0;
+  border-radius: 10px;
+  margin: 0 6px;
+}
+.header img {
+  float: left;
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+}
+.header h2 {
+  position: relative;
+  top: 8px;
+  right: 35px;
+}
+.vl {
+  border-left: 1px solid #383838;
+  height: 37px;
+  position: relative;
+  right:1px;
+  bottom: 4px;
+}
+</style>
+</head>
+<body style="background-color: #214463">
+<div class="menu">
+      <div class="row" style = "background-color: #1f2933; margin: auto; padding-left: 14.5%; padding-color: #1f2933;">
+          <div class="column" style=" border-top: 3px solid #336ea0; ">
+            
+            <div class="vl"><a href=""  class = "ar">Python</a></div>
+          </div>
+          <div class="column" style="border-top: 3px solid #696969;">
+            
+            <div class="vl"><a href="" class = "ar">PSF</a></div>
+          </div>
+          <div class="column" style="border-top: 3px solid #ffd343;">
+            
+            <div class="vl"><a href="" class = "ar">Docs</a></div>
+          </div>
+
+          <div class="column" style="border-top: 3px solid #82b043;">
+            
+            <div class="vl"><a href="" class = "ar">PyPi</a></div>
+          </div>
+          <div class="column" style="border-top: 3px solid #a06ba7">
+            
+            <div class="vl"><a href="" class = "ar">Jobs</a></div>
+          </div>
+          <div class="column" style="border-top: 3px solid #b35863;">
+            
+            <div class="vl"><a href="" class = "ar">Community</a></div>
+          </div>
+
+        </div>
+
+      <div class="row" style="background-color: #214463; width: 1560px; padding-left: 13.5%;">
+          <div class="column1" >
+                <a href=""><img  src="python-logo.png" alt="python™" width="290" height="82"></a>
+          </div>
+          <div class="column1" style="padding-top: 20px;" >
+                <button class="button button1">Donate</button>
+                <div class="row" style="background-color:#1f2933; margin: auto; padding-bottom: 12px; border-radius: 7px; width:430px;">
+                <input type="text" placeholder="Search.." style="width:250px; height: 34px; padding-left: 20px;">  
+                <button class="button button2" href="">GO</button>
+                <a style="color: white; font-size: 17px;">Socialize</a>
+              </div>
+          </div> 
+      </div>
+  </div>
+
+    <div class="secondmenu">
+
+          <div class="row" >
+              <div class="column2" style="padding-left: 10px; ">
+                <a href=""  class = "ar1">About</a>
+              </div>
+              <div class="column2" >
+                <a href="" class = "ar1">Downloads</a>
+              </div>
+              <div class="column2" >
+
+                <a href="" class = "ar1">Documentation</a>
+              </div>
+
+              <div class="column2" >
+               <div class="vl" style="height: 50px; bottom: 10px;"> <a href="" class = "ar" style="padding-top: 15px;">Community</a></div>
+              </div>
+              <div class="column2" >
+                <a href="" class = "ar1">Success stories</a>
+              </div>
+              <div class="column2" >
+                <a href="" class = "ar1">News</a>
+              </div>
+              <div class="column2" >
+                <a href="" class = "ar1">Events</a><div class="vl" style="height: 50px; bottom: 34px; left: 85px;"></div>
+              </div>
+
+          </div>
+    </div> 
+
+    <div class="third">
+        <div class="column1"style = "background-color: #1f2933; color:white; position: relative; bottom:44px; width: 450px; ">
+          <button class="button button3" style="color:black; font-size: 28px;">>_</button>
+          <p style="padding : 1;margin : 0;line-height : 25px;opacity: 0.7;"># For loop on a list</p>
+          <p style="color: green;padding : 1;margin : 0;line-height : 25px;">>>> numbers = [2, 4, 6, 8]</p>
+            <p style="color: green;padding :1; margin : 0;line-height : 25px;">>>> product = 1</p>
+            <p style="color: green;padding : 1;margin : 0;line-height : 25px;">>>> for number in numbers:</p>
+            <p style="color: green;padding : 1;margin : 0;line-height : 25px;" >...    product = product * number</p>
+            <p style="color: green;padding : 1;margin : 0;line-height : 25px;" >... </p>
+            <p style="color: green;padding : 1;margin : 0;line-height : 25px;">>>> print('The product is:', product)</p>
+            <p style="padding : 1;margin : 1;line-height : 25px;opacity: 0.7;">The product is: 384</p>
+        </div>
+        <div class="column1" style="background-color: #1d3a55;position: relative; bottom:44px; width: 450px; height: 252px;">
+
+	          <h3 style="color: yellow;opacity: 0.7;">Functions Defined</h3>
+	          <p style="color:white;padding :1; margin : 0;line-height : 24px;font-size: 17px;opacity: 0.5;">The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.</p>
+	          <a href="" style="color: yellow;padding :1; margin : 0;line-height : 22px;opacity: 0.7;">More about defining functions in Python 3 </a> </p>
+	         
+
+	          <div class="pagination">
+	            <a href="">1</a>
+	            <a href="" class="active">2</a>
+	            <a href="">3</a>
+	            <a href="">4</a>
+	            <a href="">5</a>
+	          </div>
+        </div>
+
+            <p style=" color: white;font-size: 25px;line-height: 40px; text-align: center; padding-left: 125px; padding-right:125px;opacity: 0.7;">Python is a programming language that lets you work quickly and integrate systems more effectively.<a href="" style="color: yellow;padding :1; margin : 0;line-height : 24px;">>> Learn More</p>
+
+            </a></p>
+        </div>
+
+
+        <div style="background-color: white;">
+          <p></br></p>
+          <div class="fourthmenu" style="background-color: white; column-gap: 40px;border-spacing: 15px;">
+            <div class="row" style="column-gap: 40px; -webkit-column-gap: 40px; border-spacing: 15px;">
+              	<div class="column3"  >
+                	<div class="header">
+                    	<img src="start.png" alt="logo" />
+                    	<h2 style="text-align: center; opacity: 0.5;"> Get Started</h2>
+                  	</div>
+                  
+                 	<p style="font-size: 16px;text-align: left;opacity: 0.5;">Whether you're new to programming or an experienced developer, it's easy to learn and use Python.</p>
+              	</div>
+                <div class="column3"  >
+                  	<div class="header">
+                  	  	<img src="download.png" alt="logo" >
+                  	  	<h2 style="text-align: center; opacity: 0.5;"> Download</h2>
+                  	</div>
+                  	<p style="font-size: 16px;text-align: left;opacity: 0.5;">Python source code and installers are available for 	download for all versions!</p>
+                </div>
+                <div class="column3"  >
+                  <div class="header">
+                    <img src="docs.png" alt="logo" >
+                    <h2 style="text-align: center;right:60px;opacity: 0.5; "> Docs</h2>
+                  </div>
+                  <p style="font-size: 16px;text-align: left;opacity: 0.5;">Documentation for Python's standard library, along with tutorials and guides, are available online.</p>
+                </div>
+                <div class="column3" id="none" >
+                  <div class="header">
+                    <img src="jobs.png" alt="logo" >
+                    <h2 style="text-align: center;right:60px;opacity: 0.5; "> Jobs</h2>
+                  </div>
+                  <p style="font-size: 16px;text-align: left;opacity: 0.5;">Looking for work or have a Python related position that you're trying to hire for? <strong>Our relaunched community-run job board </strong>is the place to go.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>  
+
+</body>
+<footer style="display: table;text-align: center;margin-left: auto;margin-right: auto;">
+        <small style="color:white;font-size: 16px; padding: 10px; padding-top: 20px;">&copy; Copyright 2019 Vlad Ovadiuc</small>
+</footer>
+</html>
